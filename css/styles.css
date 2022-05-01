@@ -709,7 +709,8 @@ body {
   transition: background-color 250ms var(--timming);
 }
 
-.send-btn:hover {
+.send-btn:hover,
+.send-btn:focus {
   background: #188ce8;
 }
 
